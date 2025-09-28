@@ -1,0 +1,43 @@
+# Logs
+storage/logs/*.log
+storage/cache/*
+!storage/logs/.gitkeep
+!storage/cache/.gitkeep
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded files
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Cache files
+storage/cache/*
+!storage/cache/.gitkeep
+
+# Session files
+storage/sessions/*
+!storage/sessions/.gitkeep
+
+# Node modules (if using any build tools)
+node_modules/
+
+# Build files
+/dist/
+/build/
