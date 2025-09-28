@@ -5,7 +5,6 @@ storage/cache/*
 !storage/cache/.gitkeep
 
 # Environment files
-.env
 .env.local
 .env.*.local
 
